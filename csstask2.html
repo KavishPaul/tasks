@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS task-2</title>
+    <link rel="stylesheet" href="csstask2.css">
+    <style>
+        body{
+            display: flex;
+        }
+
+        .vertical{
+            background-color: lightblue;
+            max-width: 100px;
+            display: block;
+            margin-right: 350px;
+        }
+
+        .vertical a{
+            text-decoration: none;
+            display: block;
+            padding: 15px;
+            color: black;
+        }
+
+        .vertical a:hover{
+            background-color: orange;
+            color: white;
+        }
+
+        .horizontal{
+            margin-left: 350px;
+            background-color: rgb(219, 214, 214);
+            max-height: 50px;
+            display: flex;
+        }
+
+        .horizontal a{
+            color: black;
+            padding: 15px;
+            text-decoration: none;
+            
+        }
+
+        .horizontal a:hover{
+            background-color: grey;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <nav class="vertical">
+            <a href="">Home</a>
+            <a href="">Java</a>
+            <a href="">CSS</a>
+            <a href="">HTML</a>
+            <a href="">Bootstrap</a>
+    </nav>
+    <div class="horizontal">
+        <a href="">Home</a>
+        <a href="">Java</a>
+        <a href="">HTML</a>
+        <a href="">CSS</a>
+    </div>
+</body>
+</html>
